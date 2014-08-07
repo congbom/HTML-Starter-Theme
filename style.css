@@ -26,7 +26,12 @@ Version: 1.0
 .clearfix:after {
     clear: both;
 }
-
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
 img {
 	max-width: 100%;
 	height: auto;
@@ -35,6 +40,10 @@ img {
 
 
 
+/* Tablet landscape */
+@media screen and (max-width: 1200px) {	
+
+}
 
 /* Tablet portrait */
 @media screen and (max-width: 1000px) {   	
