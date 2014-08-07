@@ -39,9 +39,35 @@ img {
 
 
 
+/* The content */
+.the-content p,
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6,
+.the-content ul,
+.the-content table,
+.the-content iframe {
+    margin: 13px 0;
+}
+.the-content p {
+    line-height: 22px;
+}
+.the-content li {
+	margin:6.5px 0 6.5px 40px;
+}
+.the-content ul li {
+	list-style: disc ;
+}
+.the-content ol li {
+	list-style: decimal;
+}
+
 
 /* Tablet landscape */
-@media screen and (max-width: 1200px) {	
+@media screen and (max-width: 1250px) {	
 
 }
 
