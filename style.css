@@ -39,10 +39,28 @@ img {
 body {
 	-webkit-text-size-adjust: 100%;
 }
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 .container {
 	width: 92%;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+.grid {
+	text-align: justify;
+	font-size: 0;
+}
+.grid:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.grid-item {
+	display: inline-block;
+	text-align: left;
 }
 
 /* The content */
